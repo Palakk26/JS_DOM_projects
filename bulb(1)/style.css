@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid white;
+}
+button{
+    padding: 15px 20px;
+    background-color: lightblue;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: rgb(33, 111, 148);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+button:active{
+    scale: 0.88;
+}
