@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Now Display;
+  }
+  .card{
+    height: 480px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    /* padding: ; */
+    position: relative;
+  }
+  .full{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    display: none;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+  }
+  #progress{
+    height: 5px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgba(32, 32, 32, 0.795);
+  }
+  #growth{
+    height: 100%;
+    width: 0%;
+    background-color: white;
+  }
+  .full h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(53, 52, 52, 0.781);
+    margin-top: 8px;
+  }
+  .allStatus{
+    height: 80%;
+    overflow: auto;
+  }
+  .card h1{
+    padding: 20px;
+    font-size: 20px;
+  }
+  .status{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 10px 20px;
+    border-top: 1px solid black;
+  }
+  .status h3{
+    color: #888;
+  }
+  .status img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid green;
+    pointer-events: none;
+  }
+  .status-in{
+    pointer-events: none;
+  }
+  
