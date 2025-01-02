@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica Now Display;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    border-radius: 6px;
+    padding: 10px 16px;
+    border: 1px solid black;
+    background-color: white ;
+}
+button:active{
+    scale:0.88;
+}
