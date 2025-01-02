@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+button{
+    font-family: Helvetica Now Display;
+    padding: 12px 14px;
+    border-radius: 8px;
+    background-color: rgb(124, 214, 124);
+    border: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    z-index: 88;
+    background: linear-gradient(to left bottom ,rgba(219, 10, 10, 0.815),rgba(24, 23, 23, 0.801));
+    transition: all ease 0.3s;
+    border: 3px solid black;
+
+    
+}
+button:active{
+    scale: 0.88;
+}
+img{
+    height: 77px;
+    position: absolute;
+}
